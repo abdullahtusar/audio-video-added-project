@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>My First Form</h1>
+    <form action="">
+        <label for="Name">Name: 
+            <input type="text" name="Name" id="Name">
+        </label>
+        <label for="Email">Email: 
+            <input type="text" name="Email" id="Email">
+        </label>
+        <label for="Mobile">Mobile: 
+            <input type="text" name="Mobile" id="Mobile">
+        </label>
+        <fieldset>
+            <legend>
+                Gender
+            </legend>
+            <label for="Male">
+                <input type="radio" name="Male" id="Male" value="Male">
+                Male
+            </label>
+            <label for="Female">
+                <input type="radio" name="Female" id="Female" value="Female">
+                Female
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Skill
+            </legend>
+            <label for="html">
+                <input type="checkbox" name="html" id="html">
+                HTML
+            </label>
+            <label for="CSS">
+                <input type="checkbox" name="CSS" id="CSS">
+                CSS
+            </label>
+            <label for="PHP">
+                <input type="checkbox" name="PHP" id="PHP">
+                PHP
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
